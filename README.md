@@ -52,7 +52,7 @@ If you have configured everything properly then launch:
 
 	node populate.js
 
-Well, the table Applicazione will contain your apps.
+Well, the table Applicazione will contain your apps. Now you can add your users and groups (remember the password need md5sum). In a future release I'll add a script to manage users and groups.
 
 Run
 ---
