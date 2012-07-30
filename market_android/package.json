@@ -1,0 +1,25 @@
+{
+  "name": "market_android",
+  "version": "0.0.1",
+  "description": "A really basic and simple Android Market",
+  "author": "Pasquale Paola",
+  "contributors": [
+    
+    { "name": "Pasquale Paola", "email": "pasquale.paola@gmail.com" }
+  ],
+  "main": "market.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paspao/yourandroidmarket.git"
+  },
+  "dependencies": {
+    "pg":">= 0.7.2",
+    "router": ">= 0.6.0",
+    "querystring": ">= 0.0.4",
+    "url":">= 0.4.9"
+    
+  },
+  "scripts": { }
+  "devDependencies": { },
+  "engine": {"node": ">= 0.6.19"}
+}
