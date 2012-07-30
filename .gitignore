@@ -15,5 +15,9 @@ gen/
 .classpath
 .project
 
+#ModelGoon files
+*.mgc
+*.mgi
+
 # Local configuration file (sdk path, etc)
 local.properties
