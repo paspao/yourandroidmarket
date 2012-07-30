@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+<EditText android:id="@+id/edit_email" 
+    android:inputType="textEmailAddress" 
+    android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="@string/username"/>
+
+<EditText android:id="@+id/edit_password" android:inputType="textPassword" 
+    android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="@string/password"/>
+<LinearLayout
+    android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:id="@+id/button_save" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="@string/button_login"/>
+    <Button android:id="@+id/button_cancel" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="@string/button_cancel"/>
+</LinearLayout> 
+</LinearLayout>

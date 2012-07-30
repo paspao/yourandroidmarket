@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="center_vertical" android:gravity="center_vertical">
+    <ImageView android:id="@+id/appicon" android:layout_height="wrap_content" android:layout_width="96px" android:scaleType="center"
+        android:contentDescription="@string/applicationicon" android:layout_gravity="center_vertical" />
+    <LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:id="@+id/apptitle" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:textSize="32dp" android:layout_gravity="left" android:gravity="left" android:layout_weight="2"/>
+    <TextView android:id="@+id/appversion" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:textSize="24dp" android:layout_gravity="left" android:gravity="left" android:layout_weight="2"/>
+    </LinearLayout>
+    <TextView android:id="@+id/appstatus" android:layout_gravity="right" android:gravity="right" android:textColor="#00ff00"
+        android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="2" android:textSize="16dp"/>
+</LinearLayout>

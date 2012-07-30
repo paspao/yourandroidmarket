@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Your Market</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="button_login">Login</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="error_login_required">Username and password required</string>
+    <string name="error_login_failed">Login failed!</string>
+    <string name="list_apps">Searching applications</string>
+    <string name="update_list_apps">Updating applications list</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="logout">Logout</string>
+    <string name="install">Install</string>
+    <string name="installed">Installed</string>
+    <string name="update">Update</string>
+    <string name="downloading">Downloading&#8230;</string>
+    <string name="applicationicon">Application icon</string>
+</resources>

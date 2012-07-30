@@ -1,0 +1,1 @@
+exports.connectionString = "pg://market:market@127.0.0.1:5432/market";
