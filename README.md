@@ -4,7 +4,7 @@ YourAndroidMarket
 Introduction
 ------------
 
-This is a really basic server that manage your apps like an android market (now play store).
+This is a really basic server to manage your apps like an android market (now play store). The main scope is to give the basic structure for building your own android store.
 
 What you need
 -------------
