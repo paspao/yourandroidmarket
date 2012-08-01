@@ -57,7 +57,7 @@ Well, the table Applicazione will contain your apps. Now you can add your users 
 Run
 ---
 
-	node market.js __port__
+	node market.js <port>
 
 API
 ---
