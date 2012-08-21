@@ -33,7 +33,7 @@ Configure
 
 Then configure properly market_android/conf/confdirs.js with your paths.
 
-``` javascript
+```javascript
 exports.aapt = '/opt/android-sdk-mac_x86/platform-tools/aapt';//path to aapt binary file
 exports.md5sum = '/sw/bin/md5sum';//path to md5sum binary file
 exports.unzip='/sw/bin/unzip';//path to unzip binary file
@@ -46,7 +46,7 @@ exports.tmpDir='/Users/paspao/temp';//path to temporary dir path (empty)
 
 And edit the file market_android/conf/postgresqlConnection.js
 
-``` javascript
+```javascript
 exports.connectionString = "pg://market:market@127.0.0.1:5432/market";
 ```
 
@@ -54,15 +54,19 @@ Populate DB
 -----------
 If you have configured everything properly then launch:
 
-	node populate.js
+```bash
+node populate.js
+```
 
 Well, the table Applicazione will contain your apps. Now you can add your users and groups (remember the password need md5sum). In a future release I'll add a script to manage users and groups.
 
 Run
 ---
-```sh
+
+```bash
 node market.js <port>
 ```
+
 API
 ---
 * /
