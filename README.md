@@ -60,7 +60,7 @@ Well, the table Applicazione will contain your apps. Now you can add your users 
 
 Run
 ---
-```bash
+```sh
 node market.js <port>
 ```
 API
