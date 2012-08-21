@@ -46,7 +46,9 @@ exports.tmpDir='/Users/paspao/temp';//path to temporary dir path (empty)
 
 And edit the file market_android/conf/postgresqlConnection.js
 
-	exports.connectionString = "pg://market:market@127.0.0.1:5432/market";
+``` javascript
+exports.connectionString = "pg://market:market@127.0.0.1:5432/market";
+```
 
 Populate DB
 -----------
@@ -74,20 +76,22 @@ Client Side
 
 Edit the file MarketAndroidClient/res/raw/conf.properties, below the content:
 
-	rest.url=http://192.168.89.20:8000
+```properties
+rest.url=http://192.168.89.20:8000
 
-	rest.user=email
-	rest.password=password
+rest.user=email
+rest.password=password
 
-	simplelogin.path=/
+simplelogin.path=/
 
-	listapps.path=/api/listapps
+listapps.path=/api/listapps
 
-	downloadapp.path=/api/downladapp/
+downloadapp.path=/api/downladapp/
 
-	getappicon.path=/api/getappicon/
+getappicon.path=/api/getappicon/
 
-	appinfo.path=/api/appinfo/
+appinfo.path=/api/appinfo/
+```
 
 In a standard context, you must only edit the rest.url
 
